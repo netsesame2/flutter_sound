@@ -142,7 +142,7 @@ public class FlutterSoundPlayer extends FlutterSoundSession implements  FlautoPl
 	void reset(final MethodCall call, final MethodChannel.Result result)
 	{
 		m_flautoPlayer.closePlayer();
-		result.success ( getPlayerState() );
+		// result.success ( getPlayerState() );
 	}
 
 
